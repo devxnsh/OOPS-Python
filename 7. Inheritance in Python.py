@@ -30,4 +30,4 @@ class C(A,D):
     def feature6():
         print("feature6 working")
 c1 = C()
-c1.feature1(),c1.feature1(),c1.feature2(),c1.feature6(),c1.feature7(),c1.feature6()
+#c1 has all features of D and A

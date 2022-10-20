@@ -1,6 +1,6 @@
 
 ## __add__(a,b) is the behind the scene function when a+b is called. (in class int)
-#methods like __add__, __sub__,__mul__ etc have abbreviations like + , - , * so as to make code more readable
+## methods like __add__, __sub__,__mul__, __truediv__ etc have abbreviations like + , - , * so as to make code more readable
 class Mathematicians:
     def __init__(self,number) :
         self.number = number
@@ -10,3 +10,7 @@ class Mathematicians:
 Ram = Mathematicians(5)
 Shyam = Mathematicians(35)
 print(Ram+Shyam) #will not work if __add__ is not defined
+
+#similarly - * / are operators among others which call on similar functions.
+
+#see also : https://www.tutorialsteacher.com/python/magic-methods-in-python

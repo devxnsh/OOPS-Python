@@ -1,0 +1,3 @@
+#polymorphism
+#used in loose coupling, dependency injection, interface
+#Ways of implementing : duck typing, operator overloading, method overloading

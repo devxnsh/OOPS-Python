@@ -1,7 +1,8 @@
 # OOPS-Python
 A small repo for all the OOPS I learn through python tutorials
 A Project presented me with a challenge to finally learn OOPS formally. Learnt a lot of features and syntax, but realized the gist was
-within my understanding throughout. 
+within my understanding throughout. I take pride in the achievement that no file has been added directly to github, but only via git. 
+>> Everyone is welcome to instruct me on how to create a fresh repository using curl or git anytime.
 
 Sources : > https://www.youtube.com/watch?v=qiSCMNBIP2g > https://www.youtube.com/watch?v=iYu6KPigfr4
 

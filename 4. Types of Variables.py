@@ -6,16 +6,16 @@ class Car:
         self.mileage = mileage #variables inside init are called init and are changeable from object to object
         self.company = company
 
-Lola = Car(mileage=250,company="Mustang")
-Bhola = Car()
-print(Lola.company)
-print(Bhola.company)
-Lola.company = "Swift"
-print(Lola.company)
-print(Lola.wheels,Bhola.wheels)
-Lola.wheels = 5 #class variables are also changeable but are set to default and cannot be declared per object.
-print(Lola.wheels)
-Dora = Car(mileage=255,company="Maruti")
-print(Dora.wheels)
+CarA = Car(mileage=250,company="Mustang")
+CarB = Car()
+print(CarA.company)
+print(CarB.company)
+CarA.company = "Swift"
+print(CarA.company)
+print(CarA.wheels,CarB.wheels)
+CarA.wheels = 5 #class variables are also changeable but are set to default and cannot be declared per object.
+print(CarA.wheels)
+CarC = Car(mileage=255,company="Maruti")
+print(CarC.wheels)
 Car.wheels = 5 #this permanently modifies class variable for all instances
-print(Dora.wheels, Bhola.wheels)
+print(CarC.wheels, CarB.wheels)
